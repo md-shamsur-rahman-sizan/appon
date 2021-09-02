@@ -1,0 +1,1347 @@
+/* ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== */
+
+/* ===== ===== ===== ORIGINALLY DESIGNED FOR XXL DEVICES ===== ===== ===== */
+
+/* ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== */
+
+
+/*      ==============================
+             XL DEVICE PART START
+        ==============================      */
+
+@media(min-width: 1200px) and (max-width: 1399px){
+
+
+    /* ========== MENU PART START ========== */
+
+    .theme-button{
+        right: 5px;
+    }
+
+    /* ========== MENU PART START ========== */
+
+
+    /* ========== BANNER PART START ========== */
+
+    #banner .banner-image img{
+        width: 90%;
+    }
+
+    /* ========== BANNER PART END ========== */
+
+
+    /* ========== ABOUT PART START ========== */
+
+    #about .about-image img{
+        width: 100%;
+    }
+
+    /* ========== ABOUT PART END ========== */
+
+
+    /* ========== SCREENSHOT PART START ========== */
+
+    #screenshots .screenshot img{
+        width: 100%;
+    }
+
+    /* ========== SCREENSHOT PART END ========== */
+
+
+    /* ========== TEAM PART START ========== */
+
+    #team .team-member .team-text p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* ========== TEAM PART END ========== */
+
+
+}
+        
+/*      ==============================
+              XL DEVICE PART END
+        ==============================      */
+
+
+
+/*      ==============================
+             LG DEVICE PART START
+        ==============================      */
+
+@media(min-width: 992px) and (max-width: 1199px){
+
+
+    /* ========== MENU PART START ========== */
+
+    .theme-button{
+        top: 50%;
+        right: calc(65% - 25px);
+    }
+
+    /* ========== MENU PART START ========== */
+
+
+    /* ========== BANNER PART START ========== */
+
+    #banner .banner-image img{
+        width: 85%;
+    }
+
+    #banner .banner-text h1{
+        font-size: 44px;
+    }
+
+    #banner .banner-text h2{
+        font-size: 28px;
+    }
+
+    #banner .banner-text h2::after{
+        width: 25%;
+    }
+
+    #banner .banner-text p{
+        padding-bottom: 10px;
+        padding-left: 55%;
+    }
+
+    /* ========== BANNER PART END ========== */
+
+
+    /* ========== ABOUT PART START ========== */
+
+    #about{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #about .about-text{
+        margin-top: 40px;
+    }
+
+    #about .about-text .about-paragraph{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    #about .about-text .about-paragraph p{
+        padding-bottom: 0;
+    }
+
+    #about .about-image{
+        text-align: center;
+    }
+
+    #about .about-image img{
+        width: 100%;
+    }
+
+    /* ========== ABOUT PART END ========== */
+
+
+    /* ========== SCREENSHOT PART START ========== */
+
+    #screenshots .screenshot img{
+        width: 100%;
+    }
+
+    /* ========== SCREENSHOT PART END ========== */
+
+
+    /* ========== TEAM PART START ========== */
+
+    #team{
+        padding-top: 0;
+    }
+
+    #team .team-member .team-image .team-overlay ul{
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        width: 100%;
+        text-align: center;
+    }
+
+    #team .team-member .team-text p{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* ========== TEAM PART END ========== */
+
+
+    /* ========== FEEDBACK PART START ========== */
+
+    #feedback .feedback .user-feedback{
+        margin-left: 40px;
+    }
+
+    #feedback .feedback .user-feedback .user-overlay{
+        top: 0;
+    }
+
+    #feedback .slick-slide .user-feedback{
+        display: none !important;
+    }
+
+    #feedback .slick-active .user-feedback{
+        display: block !important;
+    }
+
+    /* ========== FEEDBACK PART END ========== */
+
+
+}
+
+/*      ==============================
+              LG DEVICE PART END
+        ==============================      */
+
+
+
+/*      ==============================
+             MD DEVICE PART START
+        ==============================      */
+
+@media(min-width: 768px) and (max-width: 991px){
+
+
+    /* ========== MENU PART START ========== */
+
+    #menu{
+        padding-top: 30px;
+    }
+
+    .navbar .navbar-brand img{
+        width: 175px;
+    }
+
+    .navbar .navbar-toggler{
+        color: rgb(255, 255, 255);
+        border: none;
+        box-shadow: none;
+        
+    }
+
+    .menu-background{
+        margin-top: -15px;
+        background: linear-gradient(135deg, rgb(12, 12, 12) 0%, rgb(33, 33, 33) 50%, rgb(54, 54, 54) 100%);
+    }
+
+    .navbar-nav{
+        height: 100vh;
+        background: linear-gradient(135deg, rgb(12, 12, 12) 0%, rgb(33, 33, 33) 50%, rgb(54, 54, 54) 100%);
+        align-items: center;
+    }
+
+    .theme-button{
+        top: 42px;
+        right: 5px;
+        font-size: 18px;
+    }
+
+    /* ========== MENU PART END ========== */
+
+
+    /* ========== BANNER PART START ========== */
+
+    #banner .banner-image img{
+        width: 50%;
+    }
+
+    #banner .banner-text{
+        padding-top: 160px;
+        padding-bottom: 80px;
+        padding-right: 5px;
+    }
+
+    #banner .banner-text h1{
+        font-size: 40px;
+    }
+
+    #banner .banner-text h2{
+        font-size: 26px;
+        padding-bottom: 15px;
+    }
+
+    #banner .banner-text h2::after{
+        width: 25%;
+    }
+
+    #banner .banner-text p{
+        padding-top: 15px;
+        padding-bottom: 0;
+        padding-left: 160px;
+    }
+
+    /* ========== BANNER PART END ========== */
+
+
+    /* ========== ABOUT PART START ========== */
+
+    #about{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #about .about-text{
+        margin-top: 10px;
+    }
+
+    .head .head-icon{
+        padding-top: 5px;
+    }
+
+    .head .head-icon i{
+        font-size: 18px;
+    }
+
+    .head .head-icon .icon-before::after{
+        width: 50px;
+        bottom: 9px;
+    }
+
+    .head .head-icon .icon-before::before{
+        width: 45px;
+        top: 7px;
+    }
+
+    .head .head-icon .icon-after::after{
+        width: 50px;
+        bottom: 9px;
+    }
+
+    .head .head-icon .icon-after::before{
+        width: 45px;
+        top: 7px;
+    }
+
+    #about .about-text .about-paragraph{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #about .about-text .about-paragraph p{
+        padding-bottom: 0;
+    }
+
+    #about .about-image{
+        text-align: center;
+    }
+
+    #about .about-image img{
+        width: 100%;
+    }
+
+    /* ========== ABOUT PART END ========== */
+
+
+    /* ========== SERVICE PART START ========== */
+
+    #services .feature-buttons a .button-text{
+        display: none !important;
+    }
+
+    #services .feature-buttons a .button-head{
+        font-size: 14px !important;
+    }
+
+    /* ========== SERVICE PART END ========== */
+
+
+    /* ========== SCREENSHOT PART START ========== */
+
+    #screenshots .slick-slide .screenshot{
+        display: none !important;
+    }
+
+    #screenshots .slick-active .screenshot{
+        display: block !important;
+    }
+
+    #screenshots .screenshot img{
+        padding: 10px;
+    }
+
+    /* ========== SCREENSHOT PART END ========== */
+
+
+    /* ========== PRICE PART START ========== */
+
+    #price .plan{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* ========== PRICE PART END ========== */
+
+
+    /* ========== TEAM PART START ========== */
+
+    #team{
+        padding-top: 0;
+    }
+
+    #team .team-member{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #team .team-member .team-image .team-overlay ul{
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        width: 100%;
+        text-align: center;
+    }
+
+    /* ========== TEAM PART END ========== */
+
+
+    /* ========== FEEDBACK PART START ========== */
+
+    #feedback .feedback .user-feedback{
+        margin-left: 50px;
+    }
+
+    #feedback .feedback .user-feedback .user-overlay{
+        top: 0;
+    }
+
+    #feedback .slick-slide .user-feedback{
+        display: none !important;
+    }
+
+    #feedback .slick-active .user-feedback{
+        display: block !important;
+    }
+
+    /* ========== FEEDBACK PART END ========== */
+
+
+    /* ========== CONTACT PART START ========== */
+
+    #contact .contact-form form .name, .email, .website, .message{
+        padding-top: 20px !important;
+    }
+
+    /* ========== CONTACT PART END ========== */
+
+
+    /* ========== PRELOADER PART START ========== */
+
+    .preloader img{
+        width: 100%;
+    }
+
+    .preloader .loading-icon{
+        width: 75px;
+        top: 45%;
+    }
+
+    .preloader h4{
+        top: 51%;
+    }
+
+    .preloader h3{
+        top: 55%;
+    }
+
+    /* ========== PRELOADER PART END ========== */
+
+
+}
+
+/*      ==============================
+              MD DEVICE PART END
+        ==============================      */
+
+
+
+/*      ==============================
+             SM DEVICE PART START
+        ==============================      */
+
+@media(min-width: 576px) and (max-width: 767px){
+
+
+    /* ========== MENU PART START ========== */
+
+    #menu{
+        padding-top: 30px;
+    }
+
+    .navbar .navbar-brand img{
+        width: 150px;
+    }
+
+    .navbar .navbar-toggler{
+        color: rgb(255, 255, 255);
+        border: none;
+        box-shadow: none;
+        
+    }
+
+    .menu-background{
+        margin-top: -15px;
+        background: linear-gradient(135deg, rgb(12, 12, 12) 0%, rgb(33, 33, 33) 50%, rgb(54, 54, 54) 100%);
+    }
+
+    .navbar-nav{
+        height: 100vh;
+        background: linear-gradient(135deg, rgb(12, 12, 12) 0%, rgb(33, 33, 33) 50%, rgb(54, 54, 54) 100%);
+        align-items: center;
+    }
+
+    .theme-button{
+        top: 39px;
+        right: 5px;
+        font-size: 18px;
+    }
+
+    /* ========== MENU PART END ========== */
+
+
+    /* ========== BANNER PART START ========== */
+
+    #banner .banner-image img{
+        width: 50%;
+    }
+
+    #banner .banner-text{
+        padding-top: 140px;
+        padding-bottom: 75px;
+        padding-right: 5px;
+    }
+
+    #banner .banner-text h1{
+        font-size: 36px;
+    }
+
+    #banner .banner-text h2{
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+
+    #banner .banner-text h2::after{
+        width: 25%;
+    }
+
+    #banner .banner-text p{
+        padding-top: 15px;
+        padding-bottom: 0;
+        padding-left: 50px;
+        font-size: 14px;
+    }
+
+    #banner .banner-text .google-store{
+        padding-top: 10px;
+    }
+
+    #banner .banner-text .google-store a{
+        font-size: 13px;
+        padding: 5px 16px 5px 40px;
+    }
+
+    #banner .banner-text .google-store a i{
+        left: 12px;
+        font-size: 24px;
+    }
+
+    #banner .banner-text .google-store a span:last-child{
+        font-size: 17px;
+    }
+
+    #banner .banner-text .apple-store{
+        padding-top: 10px;
+    }
+
+    #banner .banner-text .apple-store a{
+        font-size: 13px;
+        padding: 5px 16px 5px 40px;
+    }
+
+    #banner .banner-text .apple-store a i{
+        left: 12px;
+        font-size: 24px;
+    }
+
+    #banner .banner-text .apple-store a span:last-child{
+        font-size: 17px;
+    }
+
+    /* ========== BANNER PART END ========== */
+
+
+    /* ========== ABOUT PART START ========== */
+
+    #about{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #about .about-text{
+        margin-top: 0;
+    }
+
+    .head h3{
+        font-size: 24px;
+    }
+
+    .head .head-icon{
+        padding-top: 5px;
+    }
+
+    .head .head-icon i{
+        font-size: 18px;
+    }
+
+    .head .head-icon .icon-before::after{
+        width: 50px;
+        bottom: 9px;
+    }
+
+    .head .head-icon .icon-before::before{
+        width: 45px;
+        top: 7px;
+    }
+
+    .head .head-icon .icon-after::after{
+        width: 50px;
+        bottom: 9px;
+    }
+
+    .head .head-icon .icon-after::before{
+        width: 45px;
+        top: 7px;
+    }
+
+    #about .about-text .about-paragraph{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #about .about-text .about-paragraph p{
+        font-size: 13px;
+        padding-bottom: 0;
+    }
+
+    #about .about-image{
+        text-align: center;
+    }
+
+    #about .about-image img{
+        width: 75%;
+    }
+
+    /* ========== ABOUT PART END ========== */
+
+
+    /* ========== SERVICE PART START ========== */
+
+    #services{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #services .feature-images{
+        padding-top: 40px;
+    }
+
+    #services .feature-buttons a .button-head,.button-text{
+        display: none !important;
+    }
+
+    #services .feature-buttons{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #services .feature-buttons .nav{
+        margin-right: 0 !important;
+        display: block;
+    }
+
+    #services .feature-buttons .nav .nav-link{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        display: inline-block;
+        padding: 10px;
+}
+
+    #services .feature-buttons .nav .nav-link a{
+        display: inline-block;
+        padding-left: 0;
+    }
+
+    #services .feature-buttons .nav .nav-link a i{
+        position: relative;
+        display: block;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+
+    #services .feature-buttons .nav .nav-link::after{
+        display: none;
+    }
+
+    #services .feature-images .feature-image img{
+        margin-left: 0;
+    }
+
+    #services .feature-text{
+        padding-top: 30px;
+        padding-bottom: 0;
+        text-align: justify;
+    }
+
+    #services .feature-text h4{
+        padding-bottom: 20px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #services .feature-text p{
+        padding-bottom: 0;
+        padding-left: 0;
+        font-size: 14px;
+    }
+
+    /* ========== SERVICE PART END ========== */
+
+
+    /* ========== PRICE PART START ========== */
+
+    #price .plan{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #price .plan .plan-head{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #price .plan .plan-head h4{
+        font-size: 16px;
+    }
+
+    #price .plan .plan-features{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #price .plan .plan-features ul li{
+        font-size: 13px;
+    }
+
+    /* ========== PRICE PART END ========== */
+
+
+    /* ========== TEAM PART START ========== */
+
+    #team{
+        padding-top: 0;
+    }
+
+    #team .team-member{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #team .team-member .team-image .team-overlay ul{
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        width: 100%;
+        text-align: center;
+    }
+
+    #team .team-member .team-text h5{
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+
+    #team .team-member .team-text h6{
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    #team .team-member .team-text p{
+        font-size: 13px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* ========== TEAM PART END ========== */
+
+
+    /* ========== FEEDBACK PART START ========== */
+
+    #feedback .feedback .user-feedback{
+        height: 75px;
+        width: 75px !important;
+        margin-left: 35px;
+    }
+
+    #feedback .feedback .user-feedback .user-overlay{
+        top: 0;
+    }
+
+    #feedback .slick-center .user-feedback img{
+        height: 125px;
+        width: 125px;
+        margin-left: -27px;
+    }
+
+    #feedback .slick-center .user-feedback .user-overlay{
+        height: 125px;
+        width: 125px;
+        left: -27px;
+    }
+
+    #feedback .slick-slide .user-feedback{
+        display: none !important;
+    }
+
+    #feedback .slick-active .user-feedback{
+        display: block !important;
+    }
+
+    /* ========== FEEDBACK PART END ========== */
+
+
+    /* ========== CONTACT PART START ========== */
+
+    #contact{
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    #contact .contact-form form .email, .website, .message{
+        padding-top: 20px !important;
+    }
+
+    #contact .contact-form form .submit-button{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #contact .contact-form form textarea{
+        height: 150px;
+    }
+
+    /* ========== CONTACT PART END ========== */
+
+
+    /* ========== FOOTER PART END ========== */
+
+    #footer .footer-logo img{
+        width: 175px;
+    }
+
+    /* ========== FOOTER PART END ========== */
+
+
+    /* ========== PRELOADER PART START ========== */
+
+    .preloader img{
+        width: 100%;
+    }
+
+    .preloader .loading-icon{
+        width: 60px;
+        top: 46%;
+    }
+
+    .preloader h4{
+        font-size: 20px;
+        top: 51%;
+    }
+
+    .preloader h3{
+        top: 54%;
+        font-size: 28px;
+    }
+
+    /* ========== PRELOADER PART END ========== */
+
+
+}
+
+/*      ==============================
+              SM DEVICE PART END
+        ==============================      */
+
+
+
+/*      ==============================
+             XS DEVICE PART START
+        ==============================      */
+
+@media(max-width: 575px){
+
+
+    /* ========== MENU PART START ========== */
+
+    #menu{
+        padding-top: 25px;
+    }
+
+    .navbar .navbar-brand img{
+        width: 100px;
+    }
+
+    .navbar .navbar-toggler{
+        color: rgb(255, 255, 255);
+        border: none;
+        box-shadow: none;
+        
+    }
+
+    .menu-background{
+        margin-top: -20px;
+        background: linear-gradient(135deg, rgb(12, 12, 12) 0%, rgb(33, 33, 33) 50%, rgb(54, 54, 54) 100%);
+    }
+
+    .navbar-nav{
+        height: 100vh;
+        background: linear-gradient(135deg, rgb(12, 12, 12) 0%, rgb(33, 33, 33) 50%, rgb(54, 54, 54) 100%);
+        align-items: center;
+    }
+
+    .theme-button{
+        top: 27px;
+        right: 40px;
+        font-size: 18px;
+    }
+
+    /* ========== MENU PART END ========== */
+
+
+    /* ========== BANNER PART START ========== */
+
+    #banner .banner-image img{
+        width: 50%;
+    }
+
+    #banner .banner-text{
+        padding-top: 125px;
+        padding-bottom: 60px;
+    }
+
+    #banner .banner-text h1{
+        font-size: 32px;
+    }
+
+    #banner .banner-text h2{
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+
+    #banner .banner-text h2::after{
+        width: 40%;
+    }
+
+    #banner .banner-text p{
+        padding-top: 15px;
+        padding-bottom: 0;
+        padding-left: 0;
+        font-size: 13px;
+    }
+
+    #banner .banner-text .google-store{
+        padding-top: 10px;
+    }
+
+    #banner .banner-text .google-store a{
+        font-size: 12px;
+        padding: 3px 10px 3px 32px;
+    }
+
+    #banner .banner-text .google-store a i{
+        left: 10px;
+        font-size: 20px;
+    }
+
+    #banner .banner-text .google-store a span:last-child {
+        font-size: 16px;
+    }
+
+    #banner .banner-text .apple-store{
+        padding-top: 10px;
+    }
+
+    #banner .banner-text .apple-store a{
+        font-size: 12px;
+        padding: 3px 10px 3px 32px;
+    }
+
+    #banner .banner-text .apple-store a i{
+        left: 10px;
+        font-size: 20px;
+    }
+
+    #banner .banner-text .apple-store a span:last-child {
+        font-size: 16px;
+    }
+
+    #banner .slick-dots{
+        display: none !important;
+    }
+
+    /* ========== BANNER PART END ========== */
+
+
+    /* ========== ABOUT PART START ========== */
+
+    #about{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #about .about-text{
+        margin-top: 0;
+    }
+
+    .head h3{
+        font-size: 20px;
+    }
+
+    .head .head-icon{
+        padding-top: 5px;
+    }
+
+    .head .head-icon i{
+        font-size: 16px;
+    }
+
+    .head .head-icon .icon-before::after{
+        width: 40px;
+        bottom: 9px;
+    }
+
+    .head .head-icon .icon-before::before{
+        width: 30px;
+        top: 7px;
+    }
+
+    .head .head-icon .icon-after::after{
+        width: 40px;
+        bottom: 9px;
+    }
+
+    .head .head-icon .icon-after::before{
+        width: 30px;
+        top: 7px;
+    }
+
+    #about .about-text .about-paragraph{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #about .about-text .about-paragraph p{
+        font-size: 12px;
+    }
+
+    #about .about-image{
+        text-align: center;
+    }
+
+    #about .about-image img{
+        width: 75%;
+    }
+
+    /* ========== ABOUT PART END ========== */
+
+
+    /* ========== SERVICE PART START ========== */
+
+    #services .feature-images{
+        padding-top: 30px;
+    }
+
+    #services .feature-buttons a .button-head,.button-text{
+        display: none !important;
+    }
+
+    #services .feature-buttons{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #services .feature-buttons .nav{
+        margin-right: 0 !important;
+        display: block;
+    }
+
+    #services .feature-buttons .nav .nav-link{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        display: inline-block;
+        padding: 10px;
+}
+
+    #services .feature-buttons .nav .nav-link a{
+        display: inline-block;
+        padding-left: 0;
+    }
+
+    #services .feature-buttons .nav .nav-link a i{
+        position: relative;
+        display: block;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+
+    #services .feature-buttons .nav .nav-link::after{
+        display: none;
+    }
+
+    #services .feature-images .feature-image img{
+        margin-left: 0;
+    }
+
+    #services .feature-text{
+        padding-top: 30px;
+        padding-bottom: 0;
+        text-align: justify;
+    }
+
+    #services .feature-text h4{
+        padding-bottom: 20px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #services .feature-text p{
+        padding-bottom: 0;
+        padding-left: 0;
+        font-size: 12px;
+    }
+
+    /* ========== SERVICE PART END ========== */
+
+
+    /* ========== SCREENSHOT PART START ========== */
+
+    #screenshots .screenshot img{
+        padding-top: 0;
+        margin: 0 auto;
+    }
+
+    /* ========== SCREENSHOT PART END ========== */
+
+
+    /* ========== PRICE PART START ========== */
+
+    #price .plan{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #price .plan .plan-head{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #price .plan .plan-head h4{
+        font-size: 16px;
+    }
+
+    #price .plan .plan-features{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #price .plan .plan-features ul li{
+        font-size: 13px;
+    }
+
+    /* ========== PRICE PART END ========== */
+
+
+    /* ========== TEAM PART START ========== */
+
+    #team{
+        padding-top: 0;
+    }
+
+    #team .team-member{
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    #team .team-member .team-image .team-overlay ul{
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        width: 100%;
+        text-align: center;
+    }
+
+    #team .team-member .team-text h5{
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+
+    #team .team-member .team-text h6{
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    #team .team-member .team-text p{
+        font-size: 13px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* ========== TEAM PART END ========== */
+
+
+    /* ========== FEEDBACK PART START ========== */
+
+    #feedback .feedback .feedback-content p{
+        font-size: 13px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: justify;
+        margin-bottom: 5px;
+    }
+
+    #feedback .feedback .feedback-content .feedback-ratings i{
+        font-size: 12px;
+    }
+
+    #feedback .feedback .feedback-content h5{
+        font-size: 16px;
+    }
+
+    #feedback .feedback .feedback-content h6{
+        font-size: 13px;
+    }
+
+    #feedback .feedback .user-feedback{
+        height: 75px;
+        width: 75px !important;
+    }
+
+    #feedback .slick-center .user-feedback img{
+        height: 125px;
+        width: 125px;
+    }
+
+    #feedback .slick-center .user-feedback .user-overlay{
+        height: 125px;
+        width: 125px;
+    }
+
+    /* ========== FEEDBACK PART END ========== */
+
+
+    /* ========== CONTACT PART START ========== */
+
+    #contact{
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    #contact .contact-form form .email, .website, .message{
+        padding-top: 20px !important;
+    }
+
+    #contact .contact-form form .submit-button{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    #contact .contact-form form textarea{
+        height: 150px;
+    }
+
+    /* ========== CONTACT PART END ========== */
+
+
+    /* ========== FOOTER PART END ========== */
+
+    #footer .footer-logo img{
+        width: 150px;
+    }
+
+    #footer .footer-text h6{
+        font-size: 11px;
+    }
+
+    /* ========== FOOTER PART END ========== */
+
+
+    /* ========== BACK TO TOP PART START ========== */
+
+    .back-to-top{
+        opacity: 0.25;
+    }
+
+    .back-to-top:hover{
+        opacity: 1;
+    }
+
+    /* ========== BACK TO TOP PART END ========== */
+
+
+    /* ========== PRELOADER PART START ========== */
+
+    .preloader img{
+        width: 100%;
+    }
+
+    .preloader .loading-icon{
+        width: 50px;
+        top: 46%;
+    }
+
+    .preloader h4{
+        font-size: 16px;
+        top: 51%;
+    }
+
+    .preloader h3{
+        top: 54%;
+        font-size: 24px;
+    }
+
+    /* ========== PRELOADER PART END ========== */
+
+
+}
+
+/*      ==============================
+              XS DEVICE PART END
+        ==============================      */

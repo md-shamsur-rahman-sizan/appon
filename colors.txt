@@ -1,0 +1,30 @@
+light version:
+---------------------------------
+#744fa0 (all purple)
+#f1f1f1 (banner button, feature bg, pricing plan sub-headings and benifits, feedback text bg)
+#1da1f2 (team hover icon bg)
+#353535 (footer bg, text)
+
+------------------------------------------------------------------
+
+blue version:
+---------------------------------
+#2196f3 (all blue)
+
+------------------------------------------------------------------
+
+green version:
+---------------------------------
+#7a9757 (all green)
+
+------------------------------------------------------------------
+
+menu padding-top: 80px;
+banner padding: 240px 0 125px 0;
+banner slick dots - right: 30px;
+
+------------------------------------------------------------------
+
+font-family: 'Raleway', sans-serif;
+
+font-family: 'Open Sans', sans-serif;
